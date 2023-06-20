@@ -5,7 +5,7 @@ import os
 import datetime
 import openai
 
-openai.api_key = "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"
+openai.api_key = os.getenv('CHATGPT_KEY')
 ALERT="sunlight"
 
 def listen4Alert():
